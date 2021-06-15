@@ -35,7 +35,7 @@ tape( 'main export is a function', function test( t ) {
 
 tape( 'the function throws an error if unable to load data', function test( t ) {
 	var image = proxyquire( './../lib/main.js', {
-		'@stdlib/fs/read-file': {
+		'@stdlib/fs-read-file': {
 			'sync': readFile
 		}
 	});
