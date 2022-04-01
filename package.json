@@ -1,0 +1,33 @@
+{
+  "name": "@stdlib/datasets-img-airplane-from-above",
+  "version": "0.0.0",
+  "description": "Image of an airplane, viewed from above looking down.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/datasets-img-airplane-from-above.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "datasets",
+    "dataset",
+    "data",
+    "image",
+    "img",
+    "airplane",
+    "plane",
+    "flying",
+    "flight",
+    "fly"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
