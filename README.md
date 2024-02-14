@@ -59,6 +59,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-airplane-from-above@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/datasets-img-airplane-from-above/tags). For example,
+
+```javascript
 import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-airplane-from-above@v0.2.0-deno/mod.js';
 ```
 
@@ -84,7 +89,7 @@ var img = image();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-airplane-from-above@v0.2.0-deno/mod.js';
+import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-airplane-from-above@deno/mod.js';
 
 var img = image();
 console.log( img );
