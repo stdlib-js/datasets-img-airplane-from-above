@@ -59,7 +59,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-airplane-from-above@esm/index.mjs';
+import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-airplane-from-above@v0.2.1-esm/index.mjs';
 ```
 
 #### image()
@@ -89,7 +89,7 @@ var img = image();
 <body>
 <script type="module">
 
-import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-airplane-from-above@esm/index.mjs';
+import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-airplane-from-above@v0.2.1-esm/index.mjs';
 
 var img = image();
 console.log( img );
