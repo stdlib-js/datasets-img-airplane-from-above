@@ -59,7 +59,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-airplane-from-above@deno/mod.js';
+import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-airplane-from-above@v0.2.2-deno/mod.js';
 ```
 
 #### image()
@@ -84,7 +84,7 @@ var img = image();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-airplane-from-above@deno/mod.js';
+import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-airplane-from-above@v0.2.2-deno/mod.js';
 
 var img = image();
 console.log( img );
