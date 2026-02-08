@@ -59,6 +59,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-airplane-from-above@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/datasets-img-airplane-from-above/tags). For example,
+
+```javascript
 import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-airplane-from-above@v0.2.3-esm/index.mjs';
 ```
 
@@ -89,7 +94,7 @@ var img = image();
 <body>
 <script type="module">
 
-import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-airplane-from-above@v0.2.3-esm/index.mjs';
+import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-airplane-from-above@esm/index.mjs';
 
 var img = image();
 console.log( img );
